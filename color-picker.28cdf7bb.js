@@ -1,0 +1,5 @@
+var e,r={};r=JSON.parse('[{"hex":"#f44336","rgb":"244,67,54"},{"hex":"#e91e63","rgb":"233,30,99"},{"hex":"#9c27b0","rgb":"156,39,176"},{"hex":"#673ab7","rgb":"103,58,183"},{"hex":"#3f51b5","rgb":"63,81,181"},{"hex":"#2196f3","rgb":"33,150,243"},{"hex":"#00bcd4","rgb":"0,188,212"},{"hex":"#009688","rgb":"0,150,136"},{"hex":"#4caf50","rgb":"76,175,80"},{"hex":"#ffeb3b","rgb":"255,235,59"},{"hex":"#ff9800","rgb":"255,152,0"},{"hex":"#795548","rgb":"121,85,72"},{"hex":"#607d8b","rgb":"96,125,139"}]');const d=document.querySelector(".js-palette");((e=r)&&e.__esModule?e.default:e).forEach(e=>{let r=document.createElement("div");r.classList.add("color-card");let t=document.createElement("div");t.classList.add("color-swatch"),t.style.backgroundColor=e.hex;let c=document.createElement("div");c.classList.add("color-meta"),c.innerHTML=`
+    <p>HEX: ${e.hex}</p>
+    <p>RGB: ${e.rgb}</p>
+    `,t.addEventListener("click",()=>{document.body.style.backgroundColor=e.hex}),r.appendChild(t),r.appendChild(c),d.appendChild(r)});
+//# sourceMappingURL=color-picker.28cdf7bb.js.map
