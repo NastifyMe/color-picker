@@ -3,10 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>Document</title>
 </head>
 <body>
+    <p><a href="index.html">На головну</a></p>
+
+    <div class="palette js-palette"></div>
+
+    <div class="color-card">
+
+<div class="color-swatch" data-hex="{{hex}}" data-rgb="{{rgb}}"
+style="background-color: '{{hex}}'"></div>
+
+<div class="color-meta">
+
+<p>HEX: {{hex}}</p>
+
+<p>RGB: {{rgb}}</p>
+
+</div>
+
+</div>
     
-    <script type="module" src="./index.js"></script>
+    <script type="module" src="./js/colorpicker.js"></script>
 </body>
 </html>
