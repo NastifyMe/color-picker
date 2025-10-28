@@ -22,6 +22,7 @@
   "homepage": "https://github.com/NastifyMe/color-picker#readme",
   "devDependencies": {
     "gh-pages": "^6.3.0",
-    "parcel": "^2.16.0"
+    "parcel": "^2.16.0",
+    "posthtml-include": "^2.0.1"
   }
 }
