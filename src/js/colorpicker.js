@@ -23,6 +23,7 @@ colors.forEach((color) => {
     })
 
     card.appendChild(typeColor)
+    
     card.appendChild(meta)
 
     palette.appendChild(card)
